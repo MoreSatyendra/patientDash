@@ -1281,3 +1281,188 @@ export const mockGeographyData = [
     value: 171135,
   },
 ];
+
+
+
+
+export const mockDataDocs = [
+  {
+    id: 1,
+    name: "Jon Snow",
+    specialization: "Orthopedics",
+    age: 35,
+    registrarId: 123512,
+  },
+  {
+    id: 2,
+    name: "Cersei Lannister",
+    age: 42,
+    specialization: "Internal Medicine",
+    registrarId: 123512,
+  },
+  {
+    id: 3,
+    name: "Jaime Lannister",
+
+    age: 45,
+    specialization: "Dermatology",
+    registrarId: 4132513,
+  },
+  {
+    id: 4,
+    name: "Anya Stark",
+
+    age: 16,
+    specialization: "General Surgery",
+    registrarId: 123512,
+  },
+  {
+    id: 5,
+    name: "Daenerys Targaryen",
+    specialization: "Pediatrics",
+    age: 31,
+    registrarId: 123512,
+  },
+  {
+    id: 6,
+    name: "Ever Melisandre",
+
+    age: 150,
+    specialization: "Pediatrics",
+    registrarId: 123512,
+  },
+  {
+    id: 7,
+    name: "Ferrara Clifford",
+
+    age: 44,
+
+    specialization: "Pediatrics",
+    registrarId: 123512,
+  },
+  {
+    id: 8,
+    name: "Rossini Frances",
+
+    age: 36,
+    specialization: "General Surgery",
+    registrarId: 512315,
+  },
+  {
+    id: 9,
+    name: "Harvey Roxie",
+    age: 65,
+    specialization: "General Surgery",
+    registrarId: 928397,
+  },
+  {
+    id: 10,
+    name: "Enteri Redack",
+    specialization: "Internal Medicine",
+    age: 42,
+
+    registrarId: 533215,
+  },
+  {
+    id: 11,
+    name: "Steve Goodman",
+    age: 11,
+    specialization: "Internal Medicine",
+    registrarId: 92197,
+  },
+];
+
+export const mockDataMedicalRecords = [
+  {
+    id: 1,
+    name: "Jon Snow",
+    age: 35,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 2,
+    name: "Cersei Lannister",
+    age: 42,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 3,
+    name: "Jaime Lannister",
+    age: 45,
+    presciptionname: "Prescription",
+    medicalreport: "Heart Report",
+    status: "print",
+  },
+  {
+    id: 4,
+    name: "Anya Stark",
+    age: 16,
+    presciptionname: "Prescription",
+    medicalreport: "Cell Report",
+    status: "print",
+  },
+  {
+    id: 5,
+    name: "Daenerys Targaryen",
+    age: 31,
+    presciptionname: "Prescription",
+    medicalreport: "Chest Report",
+    status: "print",
+  },
+  {
+    id: 6,
+    name: "Ever Melisandre",
+
+    age: 150,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 7,
+    name: "Ferrara Clifford",
+
+    age: 44,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 8,
+    name: "Rossini Frances",
+
+    age: 36,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 9,
+    name: "Harvey Roxie",
+
+    age: 65,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 10,
+    name: "Enteri Redack",
+    age: 42,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+  {
+    id: 11,
+    name: "Steve Goodman",
+    age: 11,
+    presciptionname: "Prescription",
+    medicalreport: "Blood Report",
+    status: "print",
+  },
+];
