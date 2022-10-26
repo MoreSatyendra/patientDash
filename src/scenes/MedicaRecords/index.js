@@ -6,7 +6,7 @@ import VerifiedIcon from "@mui/icons-material/Verified";
 import PendingActionsIcon from "@mui/icons-material/PendingActions";
 import DoNotDisturbAltIcon from "@mui/icons-material/DoNotDisturbAlt";
 import Header from "../../components/Header";
-import PrintIcon from '@mui/icons-material/Print';
+import PrintIcon from "@mui/icons-material/Print";
 
 const MedicalRecord = () => {
   const theme = useTheme();
@@ -50,14 +50,14 @@ const MedicalRecord = () => {
             justifyContent="center"
             borderRadius="4px"
             backgroundColor={
-              status === "print"
+              status === "View"
                 ? colors.greenAccent[600]
                 : status === "notAttended"
                 ? colors.redAccent[700]
                 : colors.yellowAccent[700]
             }
           >
-            {status === "print" && <PrintIcon />}
+            {status === "View" && <PrintIcon />}
             {status === "notAttended" && <DoNotDisturbAltIcon />}
             {status === "Pending" && <PendingActionsIcon />}
             <Typography color={colors.grey[100]} sx={{ ml: "5px" }}>
@@ -71,10 +71,7 @@ const MedicalRecord = () => {
 
   return (
     <Box m="20px">
-      <Header
-        title="Medical Records"
-        subtitle="All your Medical Records..."
-      />
+      <Header title="Medical Records" subtitle="All your Medical Records..." />
       <Box
         m="50px 0 0 0"
         height="75vh"
@@ -104,7 +101,11 @@ const MedicalRecord = () => {
           },
         }}
       >
-        <DataGrid checkboxSelection rows={mockDataMedicalRecords} columns={columns} />
+        <DataGrid
+          checkboxSelection
+          rows={mockDataMedicalRecords}
+          columns={columns}
+        />
       </Box>
     </Box>
   );
