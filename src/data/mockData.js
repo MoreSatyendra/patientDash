@@ -1375,7 +1375,7 @@ export const mockDataMedicalRecords = [
     age: 35,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 2,
@@ -1383,7 +1383,7 @@ export const mockDataMedicalRecords = [
     age: 42,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 3,
@@ -1391,7 +1391,7 @@ export const mockDataMedicalRecords = [
     age: 45,
     presciptionname: "Prescription",
     medicalreport: "Heart Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 4,
@@ -1399,7 +1399,7 @@ export const mockDataMedicalRecords = [
     age: 16,
     presciptionname: "Prescription",
     medicalreport: "Cell Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 5,
@@ -1407,7 +1407,7 @@ export const mockDataMedicalRecords = [
     age: 31,
     presciptionname: "Prescription",
     medicalreport: "Chest Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 6,
@@ -1416,7 +1416,7 @@ export const mockDataMedicalRecords = [
     age: 150,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 7,
@@ -1425,7 +1425,7 @@ export const mockDataMedicalRecords = [
     age: 44,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 8,
@@ -1434,7 +1434,7 @@ export const mockDataMedicalRecords = [
     age: 36,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 9,
@@ -1443,7 +1443,7 @@ export const mockDataMedicalRecords = [
     age: 65,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 10,
@@ -1451,7 +1451,7 @@ export const mockDataMedicalRecords = [
     age: 42,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
   {
     id: 11,
@@ -1459,7 +1459,7 @@ export const mockDataMedicalRecords = [
     age: 11,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "print",
+    status: "view",
   },
 ];
 
@@ -1559,5 +1559,89 @@ export const mockTempLineData = [
         y: 98,
       },
     ],
+  },
+];
+
+
+
+
+
+export const mockDataTDM = [
+  {
+    id: 1,
+    name: "Jon Snow",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 2,
+    name: "Cersei Lannister",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 3,
+    name: "Jaime Lannister",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 4,
+    name: "Anya Stark",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 5,
+    name: "Daenerys Targaryen",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 6,
+    name: "Ever Melisandre",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 7,
+    name: "Ferrara Clifford",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 8,
+    name: "Rossini Frances",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 9,
+    name: "Harvey Roxie",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 10,
+    name: "Enteri Redack",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
+  },
+  {
+    id: 11,
+    name: "Steve Goodman",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    specialization: "???",
   },
 ];
