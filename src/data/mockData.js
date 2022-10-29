@@ -1281,9 +1281,6 @@ export const mockGeographyData = [
   },
 ];
 
-
-
-
 export const mockDataDocs = [
   {
     id: 1,
@@ -1377,32 +1374,32 @@ export const mockDataMedicalRecords = [
     name: "Jon Snow",
     age: 35,
     presciptionname: "Prescription",
-    medicalreport: "Heart Report",
-    status: "view",
+    medicalreport: "Blood Report",
+    status: "print",
   },
   {
     id: 2,
     name: "Cersei Lannister",
     age: 42,
     presciptionname: "Prescription",
-    medicalreport: "SGPT Report",
-    status: "view",
+    medicalreport: "Blood Report",
+    status: "print",
   },
   {
     id: 3,
     name: "Jaime Lannister",
     age: 45,
     presciptionname: "Prescription",
-    medicalreport: "Cell Report",
-    status: "view",
+    medicalreport: "Heart Report",
+    status: "print",
   },
   {
     id: 4,
     name: "Anya Stark",
     age: 16,
     presciptionname: "Prescription",
-    medicalreport: "Cardio Report",
-    status: "view",
+    medicalreport: "Cell Report",
+    status: "print",
   },
   {
     id: 5,
@@ -1410,7 +1407,7 @@ export const mockDataMedicalRecords = [
     age: 31,
     presciptionname: "Prescription",
     medicalreport: "Chest Report",
-    status: "view",
+    status: "print",
   },
   {
     id: 6,
@@ -1419,7 +1416,7 @@ export const mockDataMedicalRecords = [
     age: 150,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "view",
+    status: "print",
   },
   {
     id: 7,
@@ -1428,7 +1425,7 @@ export const mockDataMedicalRecords = [
     age: 44,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "view",
+    status: "print",
   },
   {
     id: 8,
@@ -1437,7 +1434,7 @@ export const mockDataMedicalRecords = [
     age: 36,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "view",
+    status: "print",
   },
   {
     id: 9,
@@ -1446,7 +1443,7 @@ export const mockDataMedicalRecords = [
     age: 65,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "view",
+    status: "print",
   },
   {
     id: 10,
@@ -1454,7 +1451,7 @@ export const mockDataMedicalRecords = [
     age: 42,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "view",
+    status: "print",
   },
   {
     id: 11,
@@ -1462,7 +1459,7 @@ export const mockDataMedicalRecords = [
     age: 11,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "view",
+    status: "print",
   },
 ];
 
