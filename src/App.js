@@ -13,6 +13,7 @@ import Line from "./scenes/line";
 import Calendar from "./scenes/calendar";
 import DoctorList from "./scenes/DoctorList";
 import MedicalRecord from "./scenes/MedicaRecords";
+import PatientHistory from "./scenes/PatientHistory";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -35,6 +36,7 @@ function App() {
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/doclist" element={<DoctorList />} />
               <Route path="/medical_records" element={<MedicalRecord />} />
+              <Route path="/patientHistory" element={<PatientHistory/>} />
             </Routes>
           </main>
         </div>
