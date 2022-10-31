@@ -50,14 +50,14 @@ const MedicalRecord = () => {
             justifyContent="center"
             borderRadius="4px"
             backgroundColor={
-              status === "View"
+              status === "view"
                 ? colors.greenAccent[600]
                 : status === "notAttended"
                 ? colors.redAccent[700]
                 : colors.yellowAccent[700]
             }
           >
-            {status === "View" && <PrintIcon />}
+            {status === "view" && <PrintIcon />}
             {status === "notAttended" && <DoNotDisturbAltIcon />}
             {status === "Pending" && <PendingActionsIcon />}
             <Typography color={colors.grey[100]} sx={{ ml: "5px" }}>

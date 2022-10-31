@@ -1,5 +1,4 @@
 import { tokens } from "../theme";
-
 export const mockDataAppoint = [
   {
     id: 1,
@@ -1376,7 +1375,7 @@ export const mockDataMedicalRecords = [
     age: 35,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 2,
@@ -1384,7 +1383,7 @@ export const mockDataMedicalRecords = [
     age: 42,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 3,
@@ -1392,7 +1391,7 @@ export const mockDataMedicalRecords = [
     age: 45,
     presciptionname: "Prescription",
     medicalreport: "Heart Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 4,
@@ -1400,7 +1399,7 @@ export const mockDataMedicalRecords = [
     age: 16,
     presciptionname: "Prescription",
     medicalreport: "Cell Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 5,
@@ -1408,7 +1407,7 @@ export const mockDataMedicalRecords = [
     age: 31,
     presciptionname: "Prescription",
     medicalreport: "Chest Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 6,
@@ -1417,7 +1416,7 @@ export const mockDataMedicalRecords = [
     age: 150,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 7,
@@ -1426,7 +1425,7 @@ export const mockDataMedicalRecords = [
     age: 44,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 8,
@@ -1435,7 +1434,7 @@ export const mockDataMedicalRecords = [
     age: 36,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 9,
@@ -1444,7 +1443,7 @@ export const mockDataMedicalRecords = [
     age: 65,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 10,
@@ -1452,7 +1451,7 @@ export const mockDataMedicalRecords = [
     age: 42,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
   },
   {
     id: 11,
@@ -1460,6 +1459,210 @@ export const mockDataMedicalRecords = [
     age: 11,
     presciptionname: "Prescription",
     medicalreport: "Blood Report",
-    status: "View",
+    status: "view",
+  },
+];
+
+
+
+
+
+export const mockTempLineData = [
+  // {
+  //   id: "Normal Temprature",
+  //   color: tokens("dark").redAccent[200],
+  //   data: [
+  //     {
+  //       x: "8 AM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "10 AM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "12 AM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "1 PM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "3 PM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "5 PM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "8 PM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "10 PM",
+  //       y: 97,
+  //     },
+  //     {
+  //       x: "11 PM",
+  //       y: 97,
+  //     },
+  //   ],
+  // },
+  {
+    id: "Patient Temprature",
+    color: tokens("dark").greenAccent[500],
+    data: [
+      {
+        x: "8 AM",
+        y: 97,
+      },
+      {
+        x: "10 AM",
+        y: 100,
+      },
+      {
+        x: "12 AM",
+        y: 101,
+      },
+      {
+        x: "1 PM",
+        y: 97,
+      },
+      {
+        x: "3 PM",
+        y: 103,
+      },
+      {
+        x: "4 PM",
+        y: 99,
+      },
+      {
+        x: "5 PM",
+        y: 99,
+      },
+      {
+        x: "6 PM",
+        y: 99,
+      },
+      {
+        x: "8 PM",
+        y: 97,
+      },
+      {
+        x: "10 PM",
+        y: 102,
+      },
+      {
+        x: "11 PM",
+        y: 98,
+      },
+    ],
+  },
+];
+
+
+
+
+
+export const mockDataTDM = [
+  {
+    id: 1,
+    registerId: "TDMID01",
+    name: "Jon Snow",
+    liveLocation: "Near Gandi Nagar",
+    contactno: "023402793",
+    drcount: "2",
+  },
+  {
+    id: 2,
+    name: "Cersei Lannister",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID02",
+    contactno: "2-935092735",
+    drcount: "3",
+  },
+  {
+    id: 3,
+    name: "Jaime Lannister",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID03",
+    contactno: "002u9243",
+    drcount: "4",
+  },
+  {
+    id: 4,
+    name: "Anya Stark",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID04",
+    contactno: "239740235088235",
+    drcount: "6",
+  },
+  {
+    id: 5,
+    name: "Daenerys Targaryen",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID05",
+    contactno: "-28-92385951",
+    drcount: "4",
+  },
+  {
+    id: 6,
+    name: "Ever Melisandre",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID06",
+    contactno: "2935027350215",
+    drcount: "4",
+  },
+  {
+    id: 7,
+    name: "Ferrara Clifford",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID07",
+    contactno: "-2-39840217502",
+    drcount: "3",
+  },
+  {
+    id: 8,
+    name: "Rossini Frances",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID08",
+    contactno: "0340217407420",
+    drcount: "4",
+  },
+  {
+    id: 9,
+    name: "Harvey Roxie",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID09",
+    drcount: "4",
+    contactno: "03274082751",
+  },
+  {
+    id: 10,
+    name: "Enteri Redack",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID10",
+    contactno: "094u-994-234",
+    drcount: "4",
+  },
+  {
+    id: 11,
+    name: "Steve Goodman",
+    location: "Gandhi Nagar",
+    liveLocation: "Near Gandi Nagar",
+    registerId: "TDMID11",
+    contactno: "0q993-39",
+    drcount: "4",
   },
 ];
