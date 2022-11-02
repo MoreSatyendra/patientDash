@@ -29,6 +29,12 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
+    title: "Add symptoms",
+    path: "/addsymptoms",
+    icon: <ContactsOutlinedIcon />,
+    cName: "nav-text",
+  },
+  {
     title: "Patient History",
     path: "/patienthistory",
     icon: <ReceiptOutlinedIcon />,
