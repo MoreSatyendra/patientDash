@@ -34,7 +34,7 @@ function App() {
               <Route path="/patientlist" element={<Contacts />} />
               <Route path="/infomet" element={<MeetingInfo />} />
               <Route path="/profileupdate" element={<ProfileUpdate />} />
-              <Route path="/addsymptoms" element={<Symptoms />} />
+              {/* <Route path="/addsymptoms" element={<Symptoms />} /> */}
               <Route path="/line" element={<Line />} />
               <Route path="/calendar" element={<Calendar />} />
               <Route path="/doclist" element={<DoctorList />} />
