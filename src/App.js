@@ -13,14 +13,10 @@ import Line from "./scenes/line";
 import Calendar from "./scenes/calendar";
 import DoctorList from "./scenes/DoctorList";
 import MedicalRecord from "./scenes/MedicaRecords";
-<<<<<<< Updated upstream
 import PatientHistory from "./scenes/PatientHistory";
 import TDMsection from "./scenes/TDM";
  import AvalaibleTime from "./scenes/AvalaibleTIme";
 
-=======
-import Symptoms from "./scenes/symptoms";
->>>>>>> Stashed changes
 
 function App() {
   const [theme, colorMode] = useMode();
